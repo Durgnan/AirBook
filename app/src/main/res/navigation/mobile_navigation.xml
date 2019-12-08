@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.airbook.ui.search.Search"
+        android:label="Search Flights"
+        tools:layout="@layout/search_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_bookings"
+        android:name="com.example.airbook.ui.bookings.Bookings"
+        android:label="Booking History"
+        tools:layout="@layout/bookings_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_promo"
+        android:name="com.example.airbook.ui.promo.Promo"
+        android:label="Promotions and offers"
+        tools:layout="@layout/promo_fragment" />
+    <fragment
+        android:id="@+id/navigation_luggage"
+        android:name="com.example.airbook.ui.luggtrack.LuggTrack"
+        android:label="Track Your Luggage"
+        tools:layout="@layout/lugg_track_fragment" />
+</navigation>

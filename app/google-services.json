@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661585262073",
+    "firebase_url": "https://airbook-6c5f2.firebaseio.com",
+    "project_id": "airbook-6c5f2",
+    "storage_bucket": "airbook-6c5f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661585262073:android:d99ec1621a2e78ca0db928",
+        "android_client_info": {
+          "package_name": "com.example.airbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661585262073-53r3tbi85eensgfap8lfmd526cnd9b6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.airbook",
+            "certificate_hash": "e1a69e12549e64dccbcf039f66fd408022dae9e4"
+          }
+        },
+        {
+          "client_id": "661585262073-pl4rncpjpp8fu88v6b52e3ggtoar72lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDub9QYkbluiOxN8kDEncGCAJ8zKlNSaik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661585262073-pl4rncpjpp8fu88v6b52e3ggtoar72lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
