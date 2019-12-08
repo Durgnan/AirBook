@@ -24,7 +24,7 @@ public class SearchFlightsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_flights);
-        //recyclerView = findViewById(R.id.recycler_view);
+        recyclerView = findViewById(R.id.recycler_view);
         bundle = getIntent().getExtras();
         createObjects();
         invokeAdapter();
@@ -44,7 +44,8 @@ public class SearchFlightsActivity extends AppCompatActivity {
         String source = bundle.getString("source");
         String destination = bundle.getString("destination");
         Log.e("Message",flights.length+"");
-        adapter = new FlightAdapter(getApplicationContext(),flights);
+        FlightAdapter adapter = new FlightAdapter(SearchFlightsActivity.this,flights);
+
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(SearchFlightsActivity.this));
 
